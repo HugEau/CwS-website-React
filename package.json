@@ -16,7 +16,7 @@
     "web-vitals": "^2.1.4"
   },
 
-  "homepage": "https://hugeau.github.io/CwS-website-React",
+  "homepage": "https://hugeau.github.io/CwS-website-React/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

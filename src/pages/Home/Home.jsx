@@ -1,8 +1,9 @@
+import './Home.scss'
 
 function Home() {
   return (
     <div className="HomePage">
-      <h1>test</h1>
+      <h2>Content</h2>
     </div>
   );
 }
