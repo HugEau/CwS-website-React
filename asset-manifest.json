@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/CwS-website-React/static/js/main.b8b914b9.js",
+    "main.css": "/CwS-website-React/static/css/main.9d911655.css",
+    "main.js": "/CwS-website-React/static/js/main.ad87a3c5.js",
     "index.html": "/CwS-website-React/index.html",
-    "main.b8b914b9.js.map": "/CwS-website-React/static/js/main.b8b914b9.js.map"
+    "main.9d911655.css.map": "/CwS-website-React/static/css/main.9d911655.css.map",
+    "main.ad87a3c5.js.map": "/CwS-website-React/static/js/main.ad87a3c5.js.map"
   },
   "entrypoints": [
-    "static/js/main.b8b914b9.js"
+    "static/css/main.9d911655.css",
+    "static/js/main.ad87a3c5.js"
   ]
 }
