@@ -11,7 +11,7 @@ root.render(
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/CwS-website-React/" element={<Home />} />
       </Routes>
       <Footer />
     </Router>
