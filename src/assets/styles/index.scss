@@ -1,0 +1,25 @@
+// SCSS BY HUGO CHESNEL
+
+// Font Import
+@font-face {
+    font-family : 'Brittany';
+    src : url('./fonts/brittany/Brittany.ttf') format('truetype')
+}
+
+// Color set
+$primary-color : #174365;
+$second-color : #a2e8d8;
+$special-font : 'Brittany';
+$main-font : 'Montserrat';
+
+// Initializing code
+* {
+    margin: 0;
+    padding: 0;
+    font-family: $main-font;
+}
+
+html, body {
+    width: 100%;
+    scroll-behavior: smooth;
+}

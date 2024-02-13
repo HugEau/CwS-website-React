@@ -1,4 +1,521 @@
+@import '../../assets/styles/index';
+
 .HomePage {
     width: 100%;
-    height: 100%
+    height: 115%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.presentation {
+    background-color: #f3f4f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &__content {
+        width: 70%;
+        height: 95%;
+        // About part : Image and informations about me
+        &--about {
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            text-align: center;
+            color: lighten($primary-color, 10%);
+            & span {
+                font-size: 20px;
+                color: lighten($primary-color, 15%)
+            }
+            &Contents {
+                display: flex;
+                width: 100%;
+                object-fit: contain;
+                gap: 30px;
+                font-size: 20px;
+                text-align: left;
+                align-items: center;
+                & abbr {
+                    color: lighten($primary-color, 15%)
+                }
+                & a {
+                    text-decoration: none;
+                    color: inherit;
+                }
+                &Picture {
+                    background: $primary-color;
+                    width: 100%;
+                    text-align: center;
+                    color: #f3f4f5;
+                    padding: 5px;
+                    font-size: 12px;
+                    border-radius: 20px;
+                    & img {
+                        width: 95%;
+                        padding: 7px;
+                        border-radius: 15px 15px 0 0;
+                    }
+                }
+            }
+        }
+        // Div used to make bar between different parts
+        &--interDiv {
+            margin: auto;
+            margin-top: 40px;
+            width: 40%;
+            height: 3px;
+            border-radius: 5px;
+            background: linear-gradient(158deg, #174365, #a2e8d8);
+        }
+        // Skills part : displaying knowlegde with Font Awesome icons
+        &--skills {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding: 40px 0;
+            gap: 40px;
+            align-items: center;
+            justify-content: center;
+            color: lighten($primary-color, 15%);
+            &Title {
+                font-size: 25px;
+                text-align: center;
+                color: $primary-color;
+                & span {
+                    font-size: 15px;
+                    color: lighten($primary-color, 15%)
+                }
+            }
+            &Ctn {
+                display: flex;
+                flex-direction: row;
+                gap: 25px;
+                align-items: center;
+                justify-content: center;
+                &Icons {
+                    display: grid;
+                    grid-template-columns: 0.20fr 0.20fr;
+                    grid-column-gap: 25px;
+                    grid-row-gap: 25px;
+                    align-items: center;
+                    justify-content: center;
+                }
+                // If skill isn't fully acquired yet
+                &Unavailable {
+                        color: gray;
+                }
+                &Img {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 5px;
+                    font-size: 14px;
+                    //Desactivaring unavailable feature
+                    &Unavailable {
+                        display: none;
+                    }
+                    & i {
+                        position: relative;
+                        width: 28px;
+                        height: 28px;
+                        top: 13px;
+                    }
+                    & p {
+                        width: 58px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        // Portfolio part : exposing my works
+        &--portfolio {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding: 40px 0;
+            gap: 40px;
+            align-items: center;
+            justify-content: center;
+            color: lighten($primary-color, 15%);
+            &Title {
+                font-size: 25px;
+                text-align: center;
+                color: $primary-color;
+                & span {
+                    font-size: 15px;
+                    color: lighten($primary-color, 15%)
+                }
+            }
+            // Class template for different works
+            &Work {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                background-color: darken(#f3f4f5, 2%);
+                box-shadow: 4px 3px 2px darken(#f3f4f5, 4%);
+                padding: 15px;
+                border-radius: 10px;
+                &Img {
+                    width: 55%;
+                    padding: 5px;
+                    border-radius: 10px;
+                    display: flex;
+                    & img {
+                        width: 100%;
+                    }
+                }
+                &Text {
+                    display: flex;
+                    width: 45%;
+                    gap: 10px;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-between;
+                    & a {
+                        padding: 10px;
+                        background-color: lighten($primary-color, 10%);
+                        border-radius: 10px;
+                        text-decoration: none;
+                        color: #f3f4f5;
+                        text-align: center;
+                        & i {
+                            font-size: 30px;
+                        }
+                        &:hover {
+                            animation: workContactHover 0.5s;
+                            @keyframes workContactHover {
+                                0% {
+                                    padding: 10px;
+                                }
+                                50% {
+                                    padding-left: 12px;
+                                    padding-right: 12px;
+                                    background-color: lighten($primary-color, 25%);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        
+        // Guide part
+        &--guide {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            gap: 40px;
+            padding: 40px 0;
+            &Title {
+                font-size: 25px;
+                text-align: center;
+                color: $primary-color;
+                & span {
+                    font-size: 15px;
+                    color: lighten($primary-color, 15%)
+                }
+            }
+            &Content {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                gap: 20px;
+                &Left {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    padding-right: 0px;
+                    padding-bottom: 30px;
+                    width: 50%;
+                    &Ctn {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: flex-start;
+                        gap: 10px;
+                        &Line {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: flex-start;
+                            &Number {
+                                font-size: 40px;
+                                color: lighten($primary-color, 15%);
+                            }
+                            &Dots {
+                                border-left: 3px solid lighten($primary-color, 15%);
+                                height: 80px;
+                                margin-left: 8px;
+                            }
+                        }
+                        &Text {
+                            color: lighten($primary-color, 15%);
+                            &P {
+                                padding-top: 16px;
+                                padding-left: 40px;
+                                font-size: 25px;
+                            }
+                            &Span {
+                                font-size: 14px;
+                                padding-left: 3px;
+                            }
+                            &1 {
+                                font-size: 25px;
+                                color: lighten($primary-color, 15%);
+                                padding-top: 16px;
+                                &Span {
+                                    font-size: 14px;
+                                    padding-left: 10px
+                                }
+                            }
+                        }
+                    }
+                }
+                &Right {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    width: 80%;
+                    color: lighten($primary-color, 15%);
+                    border-top: 0.5px solid lighten($primary-color, 15%);
+                    padding-top: 30px;
+                    &Title {
+                        font-size: 30px;
+                    }
+                    &Subtitle {
+                        font-size: 20px;
+                    }
+                    &Text {
+                        font-size: 16px;
+                        padding-left: 15px;
+                    }
+                }
+            }
+        }
+        
+        // Packages Part
+        &--packages {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding: 40px 0 0 0;
+            gap: 40px;
+            align-items: center;
+            justify-content: center;
+            color: lighten($primary-color, 15%);
+            &Title {
+                font-size: 25px;
+                text-align: center;
+                color: $primary-color;
+                & span {
+                    font-size: 17px;
+                    color: lighten($primary-color, 15%)
+                }
+            }
+            &Ctn {
+                display: flex;
+                flex-direction: row;
+                gap: 30px;
+                width: 100%;
+                &Package {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-between;
+                    gap: 15px;
+                    width: 33%;
+                    background-color: darken(#f3f4f5, 2%);
+                    box-shadow: 4px 3px 2px darken(#f3f4f5, 4%);
+                    padding: 20px;
+                    border-radius: 10px;
+                    color: $primary-color;
+                    text-align: center;
+                    &Header {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        justify-content: center;
+                        align-items: center;
+                        &Logo {
+                            font-family: $special-font;
+                            font-size: 24px;
+                        }
+                        &Text {
+                            font-size: 12px;
+                        }
+                    }
+                    &Title {
+                        text-align: center;
+                        height: 20px;
+                        width: 90%;
+                        font-size: 14px;
+                        border-radius: 40px;
+                        color: #f3f4f5;
+                    }
+                    &Title1 {
+                        background-color: $primary-color;
+                    }
+                    &Title2 {
+                        background: linear-gradient(90deg, $primary-color, #92d1c3)
+                    }
+                    &Title3 {
+                        background-color: $second-color;
+                        color: $primary-color;
+                    }
+                }
+            }
+            &Footer {
+                color: $primary-color;
+                font-size: 18px;
+                text-align: center;
+            }
+        }
+        
+        // Contact Part
+        &--contact {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            padding: 40px 0;
+            gap: 40px;
+            align-items: center;
+            justify-content: center;
+            color: lighten($primary-color, 15%);
+            &Title {
+                font-size: 25px;
+                text-align: center;
+                color: $primary-color;
+                & span {
+                    font-size: 15px;
+                    color: lighten($primary-color, 15%)
+                }
+            }
+            &Contents {
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                font-size: 20px;
+                gap: 40px;
+                & p {
+                    
+                }
+                &Links {
+                    font-size: 50px;
+                    display: flex;
+                    gap: 50px;
+                    align-items: center;
+                    justify-content: center;
+                    & i {
+                        width: 50px;
+                        height: 50px;
+                        padding: 20px;
+                        border-radius: 100px;
+                        background-color: lighten($primary-color, 10%);
+                        color: white;
+                        &:hover {
+                            animation: contactHover 1s;
+                            @keyframes contactHover {
+                                0% {
+                                    transform: rotate(0) scale(100%);
+                                }
+                                90% {
+                                    transform: rotate(375deg) scale(125%);
+                                }
+                                100% {
+                                    transform: rotate(360deg) scale(100%);
+                                    background: #174365;
+                                }
+                            }
+                        }
+                    }
+                }
+                &Emailing {
+                    width: 100%;
+                    & form {
+                        display: flex;
+                        flex-direction: column;
+                        text-align: center;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 20px;
+                        width: 100%;
+                        & label {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 15px;
+                            width: 100%;
+                            & textarea, input[type="email"] {
+                                color: lighten($primary-color, 15%);
+                                font-family: $main-font;
+                                border-radius: 10px;
+                                border: none;
+                                box-shadow: 3px 5px 3px darken(#f3f4f5, 5%);
+                            }
+                            & input[type="email"] {
+                                width: 250px;
+                                height: 20px;
+                                padding: 5px;
+                            }
+                            & textarea {
+                                resize: none;
+                                width: 75%;
+                                height: 200px;
+                                overflow-y: scroll;
+                                padding: 20px;
+                            }
+                        }
+                        & .emailingFormAccept {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            flex-direction: row;
+                            gap: 10px;
+                            padding: 15px;
+                            width: 75%;
+                            & p {
+                                font-size: 12px;
+                                & a {
+                                    color: inherit;
+                                }
+                            }
+                        }
+                        & button {
+                            border: none;
+                            background-color: lighten($primary-color, 10%);
+                            color: #f3f4f5;
+                            box-shadow: 2px 3px 2px lighten($primary-color, 5%);
+                            border-radius: 5px;
+                            padding: 10px;
+                            text-align: center;
+                            &:hover {
+                                cursor: pointer;
+                                animation: sendEmailHover 0.5s;
+                                @keyframes sendEmailHover {
+                                    0% {
+                                        padding: 10px;
+                                    }
+                                    50% {
+                                        padding-left: 12px;
+                                        padding-right: 12px;
+                                        background-color: lighten($primary-color, 25%);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }

@@ -1,0 +1,111 @@
+@import '../../../assets/styles/index';
+
+.waiter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    padding: 150px;
+    text-align: center;
+    gap: 10px;
+    &__text {
+        font-family: inherit;
+        color: white;
+        max-width: 100%;
+        // Logo style
+        &--logo {
+            font-family: $special-font;
+            font-size: 5em;
+            padding-bottom: 20px;
+        }
+        &--mainText {
+            width: 400px;
+            max-width: 100%;
+            & .roller{
+                height: 4.125rem;
+                line-height: 4rem;
+                position: relative;
+                overflow: hidden; 
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                // Text roller with animation
+                & #rolltext {
+                    position: absolute;
+                    top: 0;
+                    animation: slide 10s infinite;
+                    font-size: 4em;
+                    text-shadow: 4px 3px 2px rgba(115,153,165,0.7);
+                    color: white;
+                }
+            }
+            @keyframes slide {
+                0% {
+                    top: 0;
+                }
+                30% {
+                    top: 0;
+                }
+                50% {
+                    top: -4rem;
+                }
+                70% {
+                    top: -8rem;
+                }
+                90% {
+                    top: -12rem;
+                }
+            }
+            &--descText {
+            font-size: 1em;
+            }
+        }
+    }
+    // Social media part
+    &__social {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        padding-top: 20px;
+        z-index: 20;
+        &--links {
+            display: flex;
+            gap: 20px;
+        }
+        & svg {
+            cursor: pointer;
+            z-index: 19;
+            color: white;
+            & a {
+                position: relative;
+                width: 28px;
+                height: 28px;
+                left: -28px;
+                top: 14px;
+                cursor: pointer;
+                z-index: 21;
+            }
+        }
+    }
+}
+
+.waiter__social--links a:hover {
+    animation: waiterContactHover 1s;
+    @keyframes waiterContactHover {
+        0% {
+           transform: rotate(0) scale(100%);
+        }
+        90% {
+           transform: rotate(375deg) scale(125%);
+        }
+        100% {
+           transform: rotate(360deg) scale(100%);
+        }
+    }
+}

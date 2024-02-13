@@ -1,9 +1,30 @@
 import './Footer.scss'
+import WaveTop from '../../assets/images/waveTop.png'
+import FooterLegals from './FooterLegals/FooterLegals'
 
 function Footer() {
+    function legalsOpen() {
+        let legalPage = document.getElementById("legalsDiv")
+        if(legalPage) {
+            legalPage.style.display = "flex"
+        }
+    }
+    
     return (
         <div className="footer">
-            <h2>footer</h2>
+            <FooterLegals />
+            <div className="footer__wave">
+                <img className="footer__wave--img" src={WaveTop} alt="wave transition" />
+            </div>
+            <div className="footer__text">
+                <h2>Site créé par Hugo Chesnel</h2>
+                <div className="footer__text--nav">
+                    <a href="#presentation" alt="presentation link"><p>À Propos</p></a>
+                    <a href="#portfolio" alt="portfolio link"><p>Portfolio</p></a>
+                </div>
+                <a href="mailto:chesnelwebstudio@gmail.com" alt="mailing hugo chesnel">chesnelwebstudio@gmail.com</a>
+                <p>© www.chesnelwebstudio.fr - <button className="footer__text--btnLegals" id="legals" onClick={ legalsOpen }>Mentions Légales</button> - All rights reserved</p>
+            </div>
         </div>
     )
 }
