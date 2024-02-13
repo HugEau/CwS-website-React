@@ -152,58 +152,6 @@
                     color: lighten($primary-color, 15%)
                 }
             }
-            // Class template for different works
-            &Work {
-                width: 100%;
-                display: flex;
-                flex-direction: row;
-                gap: 20px;
-                background-color: darken(#f3f4f5, 2%);
-                box-shadow: 4px 3px 2px darken(#f3f4f5, 4%);
-                padding: 15px;
-                border-radius: 10px;
-                &Img {
-                    width: 55%;
-                    padding: 5px;
-                    border-radius: 10px;
-                    display: flex;
-                    & img {
-                        width: 100%;
-                    }
-                }
-                &Text {
-                    display: flex;
-                    width: 45%;
-                    gap: 10px;
-                    flex-direction: column;
-                    align-items: center;
-                    justify-content: space-between;
-                    & a {
-                        padding: 10px;
-                        background-color: lighten($primary-color, 10%);
-                        border-radius: 10px;
-                        text-decoration: none;
-                        color: #f3f4f5;
-                        text-align: center;
-                        & i {
-                            font-size: 30px;
-                        }
-                        &:hover {
-                            animation: workContactHover 0.5s;
-                            @keyframes workContactHover {
-                                0% {
-                                    padding: 10px;
-                                }
-                                50% {
-                                    padding-left: 12px;
-                                    padding-right: 12px;
-                                    background-color: lighten($primary-color, 25%);
-                                }
-                            }
-                        }
-                    }
-                }
-            }
         }
         
         // Guide part
@@ -360,6 +308,9 @@
                         font-size: 14px;
                         border-radius: 40px;
                         color: #f3f4f5;
+                        justify-content: center;
+                        align-items: center;
+                        display: flex;
                     }
                     &Title1 {
                         background-color: $primary-color;
@@ -414,7 +365,7 @@
                     gap: 50px;
                     align-items: center;
                     justify-content: center;
-                    & i {
+                    & svg {
                         width: 50px;
                         height: 50px;
                         padding: 20px;
@@ -517,5 +468,145 @@
                 }
             }
         }
+    }
+}
+
+// Works picture's backgrounds
+
+#valerie {
+    background-color: #d5b7bc;
+}
+#github {
+    background-color: #0C0E12;
+}
+#kasa {
+    background-color: white;
+}
+#ohmyfood {
+    background-color: white;
+}
+
+@media (max-width: 1280px) {
+    .presentation__content--packagesCtn {
+        flex-direction: column;
+        align-items: center;
+    }
+    .presentation__content--packagesCtnPackage {
+        width: 60%;
+    }
+}
+
+@media (max-width: 1175px) {
+    .presentation__content--aboutContents {
+        gap: 30px;
+        font-size: 15px;
+        flex-direction: column;
+        &Picture {
+            width: 40%;
+        }
+        & span {
+            font-size: 15px;
+        }
+    }
+    .presentation__content--guide {
+         padding: 30px 0
+    }
+    .presentation__content--guideContent {
+        gap: 30px;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1024px) {
+    .presentation__content--portfolioWork {
+        flex-direction: column;
+        align-items: center;
+        &Img {
+            width: 80%;
+        }
+        &Text {
+            width: 80%;
+        }
+    }
+    .presentation__content--guideContentLeft {
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {  
+    .presentation__content {
+        width: 95%;
+    }
+    .presentation__content--aboutContents {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        & p {
+            max-width: 500px;
+        }
+        &Picture {
+            & img {
+                padding: 0;
+            }
+        }
+    }
+    .presentation__content--skillsCtn {
+        flex-direction: column;
+        &Icons {
+            width: 180px;
+            justify-content: space-evenly;
+        }
+    }
+    .presentation__content--portfolioWork {
+        width: 80%;
+    }
+    
+    #GuideTextLeft1 {
+        padding-left: 10px;
+    }
+    
+    .presentation__content--guideContentLeftCtnTextP {
+        padding-left: 3px;
+    }
+    .presentation__content--packagesCtnPackage {
+        width: 90%;
+    }
+}
+
+@media (max-width: 425px) {
+    .presentation__content--guideContentLeftCtn {
+		 width: 90%;
+	}
+	 .presentation__content--guideContentRightCtn {
+		 width: 90%;
+	}
+     .presentation__content--guideContentLeftCtnText1 {
+         font-size: 16px;
+		 padding-top: 10px;
+		 text-align: center;
+     }
+     .presentation__content--guideContentLeftCtnText {
+     		 text-align: center;
+     }
+	 .presentation__content--guideContentLeftCtnTextP {
+		 font-size: 18px;
+		 padding-top: 10px;
+	}
+	 .presentation__content--guideContentLeftCtnTextSpan {
+		 font-size: 14px;
+         text-align: center;
+	}
+     .presentation__content--guideContentLeftCtnText1Span {
+		 font-size: 14px;
+         text-align: center;
+	}
+	 .presentation__content--guideContentRightTitle {
+		 font-size: 30px;
+	}
+	 .presentation__content--guideContentRightSubtitle {
+		 font-size: 20px;
+	}
+	 .presentation__content--guideContentRightText {
+		 font-size: 14px;
     }
 }

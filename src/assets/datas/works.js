@@ -40,8 +40,44 @@ export const works = [
         "isOnline": false
     },
     {
-        "name": "item",
-        "image": "../assets/images/item.png",
+        "name": "OCR - Print It",
+        "image": valerieImg,
+        "link": "item",
+        "id": "it",
+        "code": ["item"],
+        "category": "Formation",
+        "description": "",
+        "fullDescription": "",
+        "homePage": false,
+        "isOnline": true
+    },
+    {
+        "name": "OCR - Print It",
+        "image": valerieImg,
+        "link": "item",
+        "id": "it",
+        "code": ["item"],
+        "category": "Formation",
+        "description": "",
+        "fullDescription": "",
+        "homePage": false,
+        "isOnline": true
+    },
+    {
+        "name": "OCR - Print It",
+        "image": valerieImg,
+        "link": "item",
+        "id": "it",
+        "code": ["item"],
+        "category": "Formation",
+        "description": "",
+        "fullDescription": "",
+        "homePage": false,
+        "isOnline": true
+    },
+    {
+        "name": "OCR - Print It",
+        "image": valerieImg,
         "link": "item",
         "id": "it",
         "code": ["item"],

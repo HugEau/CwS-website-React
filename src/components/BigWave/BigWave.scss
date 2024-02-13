@@ -11,3 +11,9 @@
         bottom: 99.9%
     }
 }
+
+@media (min-width: 2100px) {
+    main .fade {
+        height: 3%;
+    } 
+}

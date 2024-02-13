@@ -99,7 +99,8 @@ function Home() {
             
             <div className="presentation__content--portfolio" id="portfolio">
                 <p className="presentation__content--portfolioTitle">   <span>réalisations<br/></span>Portfolio</p>
-                { works.map((work) => {
+                {// eslint-disable-next-line
+                 works.map((work) => {
                     if(work.homePage){
                       return (
                         <PortfolioWork item={work} key={work.id} />
@@ -124,6 +125,7 @@ function Home() {
                         <a href="https://github.com/HugEau" alt="github link"><FontAwesomeIcon icon={faGithub} size="xl"/></a>
                     </div>
                 </div>
+                <a href='/projets'><span>Voir tous les projets</span></a>
             </div>
             
             

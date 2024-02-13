@@ -1,0 +1,37 @@
+@import '../../assets/styles/index';
+
+.projects {
+    width: 100%;
+    height: 115%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio {
+    background-color: #f3f4f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    &__content {
+        width: 70%;
+        height: 95%;
+        display: flex;
+        flex-direction: column;
+        padding: 40px 0;
+        gap: 40px;
+        align-items: center;
+        justify-content: center;
+        color: lighten($primary-color, 15%);
+        &--title {
+            font-size: 25px;
+            text-align: center;
+            color: $primary-color;
+            & span {
+                font-size: 15px;
+                color: lighten($primary-color, 15%)
+            }
+        }
+    }
+}

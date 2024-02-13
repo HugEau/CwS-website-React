@@ -6,11 +6,13 @@ import Projects from './pages/Projects/Projects';
 import Error from './pages/Error/Error';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import NavBar from './components/NavBar/NavBar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
+      <NavBar />
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />

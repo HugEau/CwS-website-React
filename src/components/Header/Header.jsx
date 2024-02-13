@@ -6,7 +6,6 @@ import HeaderText from "./HeaderText/HeaderText.jsx";
 
 function Header() {
     let pathName = useLocation();
-    console.log(pathName)
     function isPathNameHome() {
         if (pathName.pathname === '/') {
             return (

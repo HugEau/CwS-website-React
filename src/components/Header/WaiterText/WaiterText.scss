@@ -109,3 +109,9 @@
         }
     }
 }
+
+@media (max-width: 425px) {
+    main .waiter__text--mainText .roller #rolltext {
+		 font-size: 2.75em;
+	}
+}
