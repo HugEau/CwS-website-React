@@ -11,7 +11,7 @@ function Header() {
             return (
                 <WaiterText />
             )
-        } else if(pathName.pathname === '/projets') {
+        } else {
             return (
                 <HeaderText />
             )

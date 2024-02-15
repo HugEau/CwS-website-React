@@ -1,6 +1,7 @@
 import BigWave from "../../components/BigWave/BigWave"
 import { works } from "../../assets/datas/works"
-import PortfolioWork from "../../components/PortfolioWork/PortfolioWork"
+import { Link } from "react-router-dom"
+import PortfolioList from "../../components/PortfolioList/PortfolioList"
 import './Projects.scss'
 
 function Projects() {
@@ -11,11 +12,14 @@ function Projects() {
             <div className="portfolio">
                 <div className="portfolio__content">
                     <p className="portfolio__content--title">   <span>réalisations<br/></span>Portfolio</p>
-                    {works.map((work) => {
-                        return (
-                            <PortfolioWork item={work} key={work.id} />
-                        )
-                    })}
+                    <Link to='/' onClick={() => {window.scroll(0, 0);}} id="returnHome"><span>Retour accueil</span></Link>
+                    <div className="portfolio__content--ctn">
+                        {works.map((work) => {
+                            return (
+                                <PortfolioList item={work} key={work.id} />
+                            )
+                        })}
+                    </div>
                 </div>
             </div>
         </div>

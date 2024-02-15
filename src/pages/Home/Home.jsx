@@ -4,6 +4,7 @@ import { works } from '../../assets/datas/works'
 import BigWave from '../../components/BigWave/BigWave';
 import PortfolioWork from '../../components/PortfolioWork/PortfolioWork';
 
+import { Link } from 'react-router-dom';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faInstagram, faLinkedin, faGithub, faHtml5, faCss3, faReact, faSass, faJs } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faPalette } from '@fortawesome/free-solid-svg-icons';
@@ -99,6 +100,7 @@ function Home() {
             
             <div className="presentation__content--portfolio" id="portfolio">
                 <p className="presentation__content--portfolioTitle">   <span>réalisations<br/></span>Portfolio</p>
+                <Link to='/projets' onClick={() => {window.scroll(0, 0);}}><span>Voir tous les projets</span></Link>
                 {// eslint-disable-next-line
                  works.map((work) => {
                     if(work.homePage){
@@ -125,7 +127,6 @@ function Home() {
                         <a href="https://github.com/HugEau" alt="github link"><FontAwesomeIcon icon={faGithub} size="xl"/></a>
                     </div>
                 </div>
-                <a href='/projets'><span>Voir tous les projets</span></a>
             </div>
             
             
@@ -323,11 +324,11 @@ function Home() {
                         <div className="presentation__content--packagesCtnPackageTitle presentation__content--packagesCtnPackageTitle2">
                             <p>Forfait Création + Abonnement</p>
                         </div>
-                        <p>Mise à jour du contenu</p>
-                        <p>Maintenance du code</p>
-                        <p>Mise en ligne</p>
-                        <p>Accessibilité</p>
-                        <p>Sécurisation</p>
+                        <p>Forfait création</p>
+                        <p>Abonnement WebMaster</p>
+                        <p><b>Offert :</b> nom de domaine .fr (1an)</p>
+                        <p><b>Tarif préférentiel</b></p>
+                        
                     </div>
                     
                     <div className="presentation__content--packagesCtnPackage">
@@ -339,10 +340,11 @@ function Home() {
                         <div className="presentation__content--packagesCtnPackageTitle presentation__content--packagesCtnPackageTitle3">
                             <p>Abonnement WebMaster</p>
                         </div>
-                        <p>Forfait création</p>
-                        <p>Abonnement WebMaster</p>
-                        <p><b>Offert :</b> nom de domaine .fr (1an)</p>
-                        <p><b>Tarif préférentiel</b></p>
+                        <p>Mise à jour du contenu</p>
+                        <p>Maintenance du code</p>
+                        <p>Mise en ligne</p>
+                        <p>Accessibilité</p>
+                        <p>Sécurisation</p>
                     </div>
                 </div>
                 <div className="presentation__content--packagesFooter">

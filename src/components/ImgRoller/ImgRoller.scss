@@ -1,0 +1,48 @@
+.projet__ctn--roller {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding: 10px;
+    border-radius: 15px;
+    &--img {
+        &--hidden {
+            display: none;
+        }
+        &--shown {
+            width: 100%;
+            object-fit: contain;
+            border-radius: 8px;
+        }
+    }
+    &--arrowLeft {
+        position: absolute;
+        left: 15px;
+        width: 20px;
+        padding: 3px 9.5px;
+        border-radius: 20px;
+        z-index: 2;
+        cursor: pointer;
+        background-color: inherit;
+        opacity: 0.95;
+    }
+    &--arrowRight {
+        position: absolute;
+        right: 15px;
+        width: 20px;
+        padding: 3px 9.5px;
+        border-radius: 20px;
+        z-index: 2;
+        cursor: pointer;
+        background-color: inherit;
+        opacity: 0.95;
+    }
+}
+
+@media (max-width: 768px) {
+    .projet__ctn--roller {
+        width: 90%;
+    }
+}
