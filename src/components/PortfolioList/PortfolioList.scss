@@ -55,10 +55,11 @@
 @media (max-width: 768px) {
     .portfolio__content--ctn a {
         width: 100%;
+        height: auto;
     }
     .portfolio__content--ctn--itemImg {
         align-items: flex-start;
-        margin-top: 13%;
+        padding: 10% 0 15% 0;
     }
     .portfolio__content--ctn--itemText {
         display : flex

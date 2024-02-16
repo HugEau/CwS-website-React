@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { Navigate } from 'react-router-dom';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import Projects from './pages/Projects/Projects';
@@ -26,7 +27,8 @@ root.render(
             element={<ProjectItem { ...item } />}
           />
         ))}
-        <Route path="*" element={<Error />} />
+        <Route path="/404" element={<Error />} />
+        <Route path="*" element={<Navigate replace to='/404'/>}/>
       </Routes>
       <Footer />
     </Router>

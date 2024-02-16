@@ -17,3 +17,8 @@
         height: 3%;
     } 
 }
+@media (max-height: 1080px) {
+    .fade__wave {
+        bottom: 99%;
+    }
+}
