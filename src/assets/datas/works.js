@@ -138,7 +138,7 @@ export const works = [
         "isOnline": false
     },
     {
-        "name": "CwS - v1",
+        "name": "CwS - Prototype",
         "image": CwSV1Img,
         "imagesRoller": [CwSV1Img,CwSV1Img2,CwSV1Img3],
         "link": "https://hugeau.github.io/CwS-website",
