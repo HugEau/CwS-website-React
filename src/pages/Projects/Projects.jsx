@@ -11,7 +11,7 @@ function Projects() {
 
             <div className="portfolio">
                 <div className="portfolio__content">
-                    <p className="portfolio__content--title">   <span>réalisations<br/></span>Portfolio</p>
+                    <h2 className="portfolio__content--title">   <span>réalisations<br/></span>Portfolio</h2>
                     <Link to='/' onClick={() => {window.scroll(0, 0);}} id="returnHome"><span>Retour accueil</span></Link>
                     <div className="portfolio__content--ctn">
                         {works.map((work) => {

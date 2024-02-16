@@ -14,7 +14,7 @@
         &--shown {
             width: 100%;
             object-fit: contain;
-            border-radius: 8px;
+            border-radius: 5px;
         }
     }
     &--arrowLeft {
@@ -25,7 +25,7 @@
         border-radius: 20px;
         z-index: 2;
         cursor: pointer;
-        background-color: inherit;
+        background: inherit;
         opacity: 0.95;
     }
     &--arrowRight {
@@ -36,7 +36,7 @@
         border-radius: 20px;
         z-index: 2;
         cursor: pointer;
-        background-color: inherit;
+        background: inherit;
         opacity: 0.95;
     }
 }

@@ -22,6 +22,7 @@ function Footer() {
                 <div className="footer__text--nav">
                     <Link to="/" alt="presentation link" onClick={() => {window.scroll(0, 0);}}><p>Accueil</p></Link>
                     <Link to="/projets" alt="portfolio link" onClick={() => {window.scroll(0, 0);}}><p>Portfolio</p></Link>
+                    <Link to="/" alt="portfolio link"><p>Contact</p></Link>
                 </div>
                 <a href="mailto:chesnelwebstudio@gmail.com" alt="mailing hugo chesnel">chesnelwebstudio@gmail.com</a>
                 <p>© www.chesnelwebstudio.fr - <button className="footer__text--btnLegals" id="legals" onClick={ legalsOpen }>Mentions Légales</button> - All rights reserved</p>
