@@ -100,7 +100,7 @@ function Home() {
             
             <div className="presentation__content--portfolio" id="portfolio">
                 <p className="presentation__content--portfolioTitle">   <span>réalisations<br/></span>Portfolio</p>
-                <Link to='/projets' onClick={() => {window.scroll(0, 0);}}><span>Voir tous les projets</span></Link>
+                <Link to='/projets/' onClick={() => {window.scroll(0,0)}}><span>Voir tous les projets</span></Link>
                 {// eslint-disable-next-line
                  works.map((work) => {
                     if(work.homePage){
