@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.cf719805.css",
-    "main.js": "/static/js/main.bae12d50.js",
+    "main.css": "/static/css/main.f556ed96.css",
+    "main.js": "/static/js/main.a2959a96.js",
     "static/media/hugochesnel.png": "/static/media/hugochesnel.49c87a342dd39c2236c0.png",
     "static/media/github.png": "/static/media/github.c5ba971a48becc713e97.png",
     "static/media/ninacarducci.webp": "/static/media/ninacarducci.884f86beffbe8021c9fa.webp",
@@ -21,6 +21,7 @@
     "static/media/kasa.webp": "/static/media/kasa.a7cc80c91da0493bf4c3.webp",
     "static/media/sophiebluelProjet.webp": "/static/media/sophiebluelProjet.db59860df880aaeea854.webp",
     "static/media/booki.webp": "/static/media/booki.98a19a50e89c85d06545.webp",
+    "static/media/ValerieBoutiqueNext1.webp": "/static/media/ValerieBoutiqueNext1.986197036968076531ab.webp",
     "static/media/sophiebluel.webp": "/static/media/sophiebluel.0b694acc6cac437bbb0d.webp",
     "static/media/CwSReactWork.webp": "/static/media/CwSReactWork.598b0715a3e1506c9510.webp",
     "static/media/valerieboutique.webp": "/static/media/valerieboutique.bcddc9c65f17f9747c4a.webp",
@@ -28,28 +29,41 @@
     "static/media/CwSReactPortfolio.webp": "/static/media/CwSReactPortfolio.2d14cba6e390f9bdffbd.webp",
     "static/media/menumakerKanban.webp": "/static/media/menumakerKanban.5abc00a2cb855fc6bb94.webp",
     "static/media/cwsV1Portfolio.webp": "/static/media/cwsV1Portfolio.59799176283e6ce5fb95.webp",
+    "static/media/ValerieBoutiqueNext5.webp": "/static/media/ValerieBoutiqueNext5.eee274449ea8b141ca49.webp",
+    "static/media/ValerieBoutiqueNext11.webp": "/static/media/ValerieBoutiqueNext11.b7e691663f26239e2dc2.webp",
+    "static/media/ValerieBoutiqueNext3.webp": "/static/media/ValerieBoutiqueNext3.370755c74f84773568ce.webp",
     "static/media/cwsv1.webp": "/static/media/cwsv1.be74ed7b963e47ab63ad.webp",
     "static/media/printit.webp": "/static/media/printit.8072e0f7d4d64cad38bb.webp",
     "static/media/kasaAbout.webp": "/static/media/kasaAbout.e5e425105655d1822e8f.webp",
     "static/media/CwSReact.webp": "/static/media/CwSReact.20ad2571a0dce944b1f5.webp",
     "static/media/ohmyfood.webp": "/static/media/ohmyfood.5b672f71fddb19b8cbb2.webp",
     "static/media/vague1.png": "/static/media/vague1.0050668d70313f34d2b1.png",
+    "static/media/ValerieBoutiqueNext6.webp": "/static/media/ValerieBoutiqueNext6.d25a1d5ba5e6f26d13e5.webp",
+    "static/media/ValerieBoutiqueNext2.webp": "/static/media/ValerieBoutiqueNext2.4adb9167f88382cd01ac.webp",
+    "static/media/ValerieBoutiqueNext4.webp": "/static/media/ValerieBoutiqueNext4.d96f36c27cc21bda1a21.webp",
     "static/media/cwsV1Contact.webp": "/static/media/cwsV1Contact.b28c067ca4b03878eb3e.webp",
     "static/media/ridingCitiesPlanning.webp": "/static/media/ridingCitiesPlanning.7b32dcaf8485f8f89e29.webp",
+    "static/media/ValerieBoutiqueNext12.webp": "/static/media/ValerieBoutiqueNext12.ce712daf6b678e20a1b4.webp",
     "static/media/waveTop.png": "/static/media/waveTop.2bc546d15109636c9f71.png",
     "static/media/waveBottom.png": "/static/media/waveBottom.62731ffb33277511f083.png",
     "static/media/vague4.png": "/static/media/vague4.94adbc46031dedde29bd.png",
+    "static/media/ValerieBoutiqueNext10.webp": "/static/media/ValerieBoutiqueNext10.bf6f21ac10d5ccf6e681.webp",
+    "static/media/ValerieBoutiqueNext7.webp": "/static/media/ValerieBoutiqueNext7.b09fec229a489bb9ed67.webp",
     "static/media/Brittany.ttf": "/static/media/Brittany.0d8ad040c68381fe6600.ttf",
     "static/media/sophiebluelLogin.webp": "/static/media/sophiebluelLogin.07d5a4fb7fcb7e46dd5a.webp",
+    "static/media/ValerieBoutiqueNext9.webp": "/static/media/ValerieBoutiqueNext9.7b80446e1af9b514e612.webp",
     "static/media/vague2.png": "/static/media/vague2.244dd738d7270be1d1c1.png",
+    "static/media/ValerieBoutiqueNext8.webp": "/static/media/ValerieBoutiqueNext8.4437be75154a7a7a1273.webp",
+    "static/media/nextjs.svg": "/static/media/nextjs.bdebe671f2d99a206e3c9f732583f246.svg",
     "index.html": "/index.html",
+    "static/media/mongodb.svg": "/static/media/mongodb.cfd0e73682ca87a93d0b11ee9dd28272.svg",
     "static/media/RightArrow.svg": "/static/media/RightArrow.88153a5d119c2744ffe34dca1ef843df.svg",
     "static/media/LeftArrow.svg": "/static/media/LeftArrow.479ce4e609bd4178370200f39273711f.svg",
-    "main.cf719805.css.map": "/static/css/main.cf719805.css.map",
-    "main.bae12d50.js.map": "/static/js/main.bae12d50.js.map"
+    "main.f556ed96.css.map": "/static/css/main.f556ed96.css.map",
+    "main.a2959a96.js.map": "/static/js/main.a2959a96.js.map"
   },
   "entrypoints": [
-    "static/css/main.cf719805.css",
-    "static/js/main.bae12d50.js"
+    "static/css/main.f556ed96.css",
+    "static/js/main.a2959a96.js"
   ]
 }
