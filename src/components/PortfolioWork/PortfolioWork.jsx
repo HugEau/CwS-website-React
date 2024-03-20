@@ -13,7 +13,7 @@ function PortfolioWork(work) {
                 <img src={workItem.image} alt={workItem.id + " website"} />
             </div>
             <div className="presentation__content--portfolioWorkText">
-                <h2>{workItem.name}</h2>
+                <h2>{workItem.name}<br/><span>{workItem.date}</span></h2>
                 <p dangerouslySetInnerHTML={renderHTML(workItem.description)} />
                 <IsWebsiteOnline value={workItem}/>
             </div>

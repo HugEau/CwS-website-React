@@ -4,6 +4,8 @@ import { works } from '../../assets/datas/works'
 import BigWave from '../../components/BigWave/BigWave';
 import PortfolioWork from '../../components/PortfolioWork/PortfolioWork';
 
+import next from '../../assets/images/nextjs.svg'
+
 import { Link } from 'react-router-dom';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faInstagram, faLinkedin, faGithub, faHtml5, faCss3, faReact, faSass, faJs } from '@fortawesome/free-brands-svg-icons';
@@ -65,8 +67,8 @@ function Home() {
                             <p>HTML</p>
                         </div>
                         <div className="presentation__content--skillsCtnImg">
-                            <FontAwesomeIcon icon={faCss3} size='2xl'/>
-                            <p>CSS</p>
+                            <FontAwesomeIcon icon={faSass} size='2xl'/>
+                            <p>Sass</p>
                         </div>
                     </div>
                     <div className="presentation__content--skillsCtnIcons">
@@ -75,8 +77,8 @@ function Home() {
                             <p>JS</p>
                         </div>
                         <div className="presentation__content--skillsCtnImg">
-                          <FontAwesomeIcon icon={faSass} size='2xl'/>
-                            <p>Sass</p>
+                          <FontAwesomeIcon icon={faPalette} size='2xl'/>
+                            <p>Design</p>
                         </div>
                     </div>
                     <div className="presentation__content--skillsCtnIcons">
@@ -85,9 +87,8 @@ function Home() {
                             <p>React</p>
                         </div>
                         <div className="presentation__content--skillsCtnImg">
-                          <FontAwesomeIcon icon={faPalette} size='2xl'/>
-                            <p>Design</p>
-                        </div>
+                            <img src={next} alt='nextIcon'/> 
+                            <p>NextJS</p>
                     </div>
                 </div>
             </div>
@@ -390,6 +391,7 @@ function Home() {
             </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

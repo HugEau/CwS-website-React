@@ -12,6 +12,7 @@ function PortfolioWork(work) {
                 </div>
                 <div className="portfolio__content--ctn--itemText">
                     <h2>{workItem.name}</h2>
+                    <p>{workItem.date}</p>
                 </div>
             </div>
         </Link>

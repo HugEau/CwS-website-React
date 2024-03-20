@@ -5,9 +5,15 @@ function IsWebsiteOnline(work) {
             <a href={workItem.link} alt={workItem.id + " project link"} target="_blank" rel="noreferrer"><b>Visiter le site</b></a>
         )
     } else {
-        return (
-            <a href={workItem.link} alt={workItem.id + " project code"} target="_blank" rel="noreferrer"><b>Voir le code</b></a>
-        )
+        if(workItem.link === "") {
+            return (
+                <a href="/#portfolio">Bientôt</a>
+            )
+        } else {
+            return (
+                <a href={workItem.link} alt={workItem.id + " project code"} target="_blank" rel="noreferrer"><b>Voir le code</b></a>
+            )
+        }
     }
 }
 

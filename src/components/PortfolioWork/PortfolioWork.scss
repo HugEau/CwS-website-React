@@ -26,6 +26,15 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+        & h2 {
+            text-align: center;
+            & span {
+                font-size: 14px;
+            }
+        }
+        & p {
+            text-align: justify;
+        }
         & a {
             padding: 10px;
             background-color: lighten($primary-color, 10%);
@@ -69,5 +78,11 @@
 @media (max-width: 768px) {
     .presentation__content--portfolioWork {
         width: 80%;
+        &Img {
+            width: 95%;
+        }
+        &Text {
+            width: 95%;
+        }
     }   
 }

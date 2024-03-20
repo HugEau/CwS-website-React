@@ -79,6 +79,10 @@
                         gap: 5px;
                         font-size: 14px;
                         color: lighten($primary-color, 15%);
+                        & img {
+                            width: 28px;
+                            height: 28px;
+                        }
                         //Desactivating unavailable feature
                         &Unavailable {
                             display: none;

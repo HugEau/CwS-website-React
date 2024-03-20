@@ -23,6 +23,7 @@ function ProjectItem(item) {
                 <div className="projet__ctn--content--title">
                     <span>{projet.category}</span>
                     <h2>{projet.name}</h2>
+                    <h3>{projet.date}</h3>
                 </div>
                 <IsWebsiteOnline value={projet}/>
                 <ImgRoller info={projet}/>

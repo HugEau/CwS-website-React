@@ -1,3 +1,16 @@
+import valerieNextImg from '../images/ValerieBoutiqueNext/ValerieBoutiqueNext1.webp'
+import valerieNextImg2 from '../images/ValerieBoutiqueNext/ValerieBoutiqueNext2.webp'
+import valerieNextImg3 from '../images/ValerieBoutiqueNext/ValerieBoutiqueNext3.webp'
+import valerieNextImg4 from '../images/ValerieBoutiqueNext/ValerieBoutiqueNext4.webp'
+import valerieNextImg5 from '../images/ValerieBoutiqueNext/ValerieBoutiqueNext5.webp'
+import valerieNextImg6 from '../images/ValerieBoutiqueNext/ValerieBoutiqueNext6.webp'
+import valerieNextImg7 from '../images/ValerieBoutiqueNext/ValerieBoutiqueNext7.webp'
+import valerieNextImg8 from '../images/ValerieBoutiqueNext/ValerieBoutiqueNext8.webp'
+import valerieNextImg9 from '../images/ValerieBoutiqueNext/ValerieBoutiqueNext9.webp'
+import valerieNextImg10 from '../images/ValerieBoutiqueNext/ValerieBoutiqueNext10.webp'
+import valerieNextImg11 from '../images/ValerieBoutiqueNext/ValerieBoutiqueNext11.webp'
+import valerieNextImg12 from '../images/ValerieBoutiqueNext/ValerieBoutiqueNext12.webp'
+
 import valerieImg from '../images/ValerieBoutique/valerieboutique.webp'
 import valerieImg2 from '../images/ValerieBoutique/valerieboutiqueVetement.webp'
 import valerieImg3 from '../images/ValerieBoutique/valerieboutiqueModal.webp'
@@ -41,9 +54,12 @@ import menuMakerImg from '../images/MenuMaker/menumaker.webp'
 import menuMakerImg2 from '../images/MenuMaker/menumakerKanban.webp'
 import menuMakerImg3 from '../images/MenuMaker/menumakerSolution.webp'
 
+import next from '../images/nextjs.svg'
+import mongo from '../images/mongodb.svg'
+
 
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faHtml5, faCss3, faJs, faReact, faSass } from '@fortawesome/free-brands-svg-icons';
+import { faHtml5, faCss3, faJs, faReact, faSass, faNodeJs} from '@fortawesome/free-brands-svg-icons';
 import { faPalette, faArrowUpWideShort, faPeopleGroup } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
@@ -53,6 +69,9 @@ let Html5 = [<FontAwesomeIcon icon={faHtml5} size='2xl'/>, "HTML"]
 let Css3 = [<FontAwesomeIcon icon={faCss3} size='2xl'/>, "CSS"]
 let Js = [<FontAwesomeIcon icon={faJs} size='2xl'/>, "JS"]
 let ReactJS = [<FontAwesomeIcon icon={faReact} size='2xl'/>, "React"]
+let NextJS = [<img src={next} alt='nextIcon'/>, "NextJS"]
+let MongoDB = [<img src={mongo} alt='mongoIcon'/>, "Mongo"]
+let NodeJS = [<FontAwesomeIcon icon={faNodeJs} size='2xl'/>, "NodeJS"]
 let Sass = [<FontAwesomeIcon icon={faSass} size='2xl'/>, "Sass"]
 let Palette = [<FontAwesomeIcon icon={faPalette} size='2xl'/>, "Design"]
 let ArrowUpWideShort = [<FontAwesomeIcon icon={faArrowUpWideShort} size='2xl'/>, "SEO"]
@@ -61,21 +80,37 @@ let PeopleGroup = [<FontAwesomeIcon icon={faPeopleGroup} size='2xl'/>, "Gestion"
 export const works = [
     {
         "name": "Valérie Boutique",
+        "image": valerieNextImg,
+        "imagesRoller": [valerieNextImg,valerieNextImg2,valerieNextImg3,valerieNextImg4,valerieNextImg5,valerieNextImg6,valerieNextImg7,valerieNextImg8,valerieNextImg9,valerieNextImg10,valerieNextImg11,valerieNextImg12],
+        "date": "Mars 2024",
+        "link": "",
+        "id": "valerieNext",
+        "code": [Html5,Sass,Js,ReactJS,NextJS,MongoDB,NodeJS,Palette,ArrowUpWideShort,PeopleGroup],
+        "category": "Vitrine",
+        "description": "Site vitrine d’une boutique de prêt-à-porter spécialisée dans le Lin et le Velours à Honfleur, Calvados<br/><br/><u><b>Travail réalisé :</b></u> Design, création (cahier des charges, HTML, Sass, NextJS dont React et Node, MongoDB), refonte totale du site, implémentation Back-End de fonctions administratives, hébergement / mise en ligne, présentation à l’entrepreneur",
+        "fullDescription": 'Valérie Boutique peut être décrit comme le projet pionnier de CwS. De nombreuses versions ont été réalisées afin de satisfaire chaque envies de cette entrepreneuse basée à Honfleur. Du design à la gestion des nouveaux articles, CwS s’occupe de tout.<br/><br/>Plusieurs étapes de conception ont été nécessaires, notamment de nombreuses phases de tests et de recherche de design pour faire suivre les évolutions créatives et techniques de CwS, incluant l’intégration du framework NextJS.<br/><br/>Dans l’optique d’un déploiement optimal, le site a subi une mise-à-jour importante récemment afin de garantir un référencement naturel renforcé, mais aussi proposer des fonctionnalités majeures tel que la gestion et création d’articles par l’entrepreneuse via par une interface administrateur et l’intégration d’une base donnée, d’un serveur et d’une API qui fonctionnent en cohésion pour fournir aux utilisateurs une expérience de navigation optimale.<br/><br/>Les sites ne restant pas bien longtemps dans une version fixe, des nouveautés techniques aux nouvelles tendances de social engineering, en passant par les découvertes de failles de sécurité, ces besoins requièrent une veille conséquente, ainsi rien ne doit être laissé au hasard. C’est pourquoi le site Valérie Boutique est géré, hébergé, sécurisé, optimisé et mis à jour par mes soins.<br/>Des mises à jours hebdomadaires sont déployés afin de répondre au mieux aux volontés de la boutique, mais également aux besoins des clients.<br/><br/>',
+        "homePage": true,
+        "isOnline": false
+    },
+    {
+        "name": "Valérie Boutique - Ancienne Version",
         "image": valerieImg,
         "imagesRoller": [valerieImg,valerieImg2,valerieImg3],
+        "date": "Septembre - Décembre 2023",
         "link": "https://www.valerieboutique.fr",
         "id": "valerie",
         "code": [Html5,Css3,Js,Palette,ArrowUpWideShort,PeopleGroup],
         "category": "Vitrine",
         "description": "Site vitrine d’une boutique de prêt-à-porter spécialisée dans le Lin et le Velours à Honfleur, Calvados<br/><br/><u><b>Travail réalisé :</b></u> Design, création (cahier des charges, HTML, CSS, JS), refonte des bases (corrections + commits régulier), gestion Back-End, hébergement / mise en ligne, présentation à l’entrepreneur",
-        "fullDescription": 'Valérie Boutique peut-être décrit comme le projet pionnier de CwS. De nombreuses versions ont été réalisées afin de satisfaire chaque envies de cette entrepreneuse basée à Honfleur. Du design à la gestion des nouveaux articles, CwS s’occupe de tout.<br/><br/>Plusieurs étapes de conception ont été nécessaires, notamment de nombreuses phases de tests et de recherche de design pour faire suivre les évolutions créatives et techniques de CwS.<br/><br/>Dans l’optique d’un déploiement optimal, le site a subi une mise-à-jour importante récemment afin de garantir un référencement naturel renforcé, mais aussi proposer des fonctionnalités majeures tel que la gestion des soldes.<br/><br/>Un site ne reste pas bien longtemps dans une version fixe, des nouveautés techniques aux nouvelles tendances de social engineering, en passant par les découvertes de failles de sécurité, ces besoins requièrent une veille conséquente, ainsi rien ne doit être laissé au hasard. C’est pourquoi le site Valérie Boutique est géré, hébergé, sécurisé, optimisé et mis à jour par mes soins. <br/>Des mises à jours hebdomadaires sont déployés afin de répondre au mieux aux volontés de la boutique, mais également aux besoins des clients.<br/><br/>',
-        "homePage": true,
+        "fullDescription": 'Valérie Boutique peut être décrit comme le projet pionnier de CwS. De nombreuses versions ont été réalisées afin de satisfaire chaque envies de cette entrepreneuse basée à Honfleur. Du design à la gestion des nouveaux articles, CwS s’occupe de tout.<br/><br/>Plusieurs étapes de conception ont été nécessaires, notamment de nombreuses phases de tests et de recherche de design pour faire suivre les évolutions créatives et techniques de CwS.<br/><br/>Dans l’optique d’un déploiement optimal, le site a subi une mise-à-jour importante récemment afin de garantir un référencement naturel renforcé, mais aussi proposer des fonctionnalités majeures tel que la gestion des soldes.<br/><br/>Un site ne reste pas bien longtemps dans une version fixe, des nouveautés techniques aux nouvelles tendances de social engineering, en passant par les découvertes de failles de sécurité, ces besoins requièrent une veille conséquente, ainsi rien ne doit être laissé au hasard. C’est pourquoi le site Valérie Boutique est géré, hébergé, sécurisé, optimisé et mis à jour par mes soins. <br/>Des mises à jours hebdomadaires sont déployés afin de répondre au mieux aux volontés de la boutique, mais également aux besoins des clients.<br/><br/>',
+        "homePage": false,
         "isOnline": true
     },
     {
         "name": "OCR - CwS Portfolio",
         "image": CwSReactImg,
         "imagesRoller": [CwSReactImg,CwSReactImg2,CwSReactImg3,CwSReactImg4],
+        "date": "Février 2024",
         "link": "https://www.chesnelwebstudio.fr",
         "id": "CwSReact",
         "code": [Html5,Sass,Js,ReactJS,Palette,ArrowUpWideShort,PeopleGroup],
@@ -89,6 +124,7 @@ export const works = [
         "name": "OCR - Kasa",
         "image": kasaImg,
         "imagesRoller": [kasaImg,kasaImg2,kasaImg3,kasaImg4],
+        "date": "Février 2024",
         "link": "https://github.com/HugEau/OCR-P8-Kasa/",
         "id": "kasa",
         "code": [Html5,Sass,ReactJS],
@@ -102,6 +138,7 @@ export const works = [
         "name": "OCR - OhMyFood",
         "image": ohMyFoodImg,
         "imagesRoller": [ohMyFoodImg,ohMyFoodImg2,ohMyFoodImg3],
+        "date": "Novembre 2023",
         "link": "https://hugeau.github.io/OCR-P4-OhMyFood/index.html",
         "id": "ohMyFood",
         "code": [Html5,Sass],
@@ -115,6 +152,7 @@ export const works = [
         "name": "OCR - Nina Carducci",
         "image": ninaCarducciImg,
         "imagesRoller": [ninaCarducciImg,ninaCarducciImg2,ninaCarducciImg3],
+        "date": "Février 2024",
         "link": "https://hugeau.github.io/OCR-P9-Nina-Carducci/",
         "id": "ninaCarducci",
         "code": [Html5,ArrowUpWideShort],
@@ -128,6 +166,7 @@ export const works = [
         "name": "OCR - Sophie Bluel",
         "image": sophieBluelImg,
         "imagesRoller": [sophieBluelImg,sophieBluelImg2,sophieBluelImg3],
+        "date": "Décembre 2023",
         "link": "https://github.com/HugEau/OCR-P6-Sophie-Bluel",
         "id": "sophieBluel",
         "code": [Html5,Sass,Js],
@@ -141,6 +180,7 @@ export const works = [
         "name": "CwS - Prototype",
         "image": CwSV1Img,
         "imagesRoller": [CwSV1Img,CwSV1Img2,CwSV1Img3],
+        "date": "Janvier 2024",
         "link": "https://hugeau.github.io/CwS-website",
         "id": "CwSV1",
         "code": [Html5,Sass,Js,Palette,ArrowUpWideShort,PeopleGroup],
@@ -154,6 +194,7 @@ export const works = [
         "name": "OCR - Booki",
         "image": bookiImg,
         "imagesRoller": [bookiImg,bookiImg2],
+        "date": "Octobre 2023",
         "link": "https://hugeau.github.io/OCR-Projet3-Booki/",
         "id": "booki",
         "code": [Html5,Css3],
@@ -167,6 +208,7 @@ export const works = [
         "name": "OCR - Print It",
         "image": printItImg,
         "imagesRoller": [printItImg,printItImg2],
+        "date": "Décembre 2023",
         "link": "https://hugeau.github.io/OCR-P5-Print-It/",
         "id": "printIt",
         "code": [Html5,Css3,Js],
@@ -180,6 +222,7 @@ export const works = [
         "name": "OCR - Menu Maker",
         "image": menuMakerImg,
         "imagesRoller": [menuMakerImg,menuMakerImg2,menuMakerImg3],
+        "date": "Février 2024",
         "link": "https://www.notion.so/b904088877564da38983f81ccf23c155?v=3102f3a6a6d642838d3dd531b41341cb&pvs=4",
         "id": "menuMaker",
         "code": [PeopleGroup],
@@ -193,6 +236,7 @@ export const works = [
         "name": "OCR - Riding Cities",
         "image": ridingCitiesImg,
         "imagesRoller": [ridingCitiesImg,ridingCitiesImg2],
+        "date": "Octobre 2023",
         "link": "https://hugeau.github.io/OCR-Projet2-RidingCities/",
         "id": "ridingCities",
         "code": [Html5,Css3],
