@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e4dc85f.css",
-    "main.js": "/static/js/main.0945fb88.js",
+    "main.css": "/static/css/main.eb1181ba.css",
+    "main.js": "/static/js/main.763bd7ff.js",
     "static/media/hugochesnel.png": "/static/media/hugochesnel.49c87a342dd39c2236c0.png",
     "static/media/github.png": "/static/media/github.c5ba971a48becc713e97.png",
     "static/media/ninacarducci.webp": "/static/media/ninacarducci.884f86beffbe8021c9fa.webp",
     "static/media/ridingcities.webp": "/static/media/ridingcities.b4cfe5993959e087c8ec.webp",
     "static/media/bookiAct.webp": "/static/media/bookiAct.19dcdca6b599e4032236.webp",
     "static/media/valerieboutiqueModal.webp": "/static/media/valerieboutiqueModal.b62ab40a1591aa9cdd77.webp",
+    "static/media/Argentbank1.webp": "/static/media/Argentbank1.56d22e71975dc85d8845.webp",
     "static/media/ohmyfoodMenu.webp": "/static/media/ohmyfoodMenu.d60c7b7f72fcd679bf22.webp",
     "static/media/valerieboutiqueVetement.webp": "/static/media/valerieboutiqueVetement.cd4a8705182c350114f2.webp",
     "static/media/ninacarducciLighthouse.webp": "/static/media/ninacarducciLighthouse.ebce25a217251a52a701.webp",
@@ -34,17 +35,24 @@
     "static/media/ValerieBoutiqueNext3.webp": "/static/media/ValerieBoutiqueNext3.370755c74f84773568ce.webp",
     "static/media/cwsv1.webp": "/static/media/cwsv1.be74ed7b963e47ab63ad.webp",
     "static/media/printit.webp": "/static/media/printit.8072e0f7d4d64cad38bb.webp",
+    "static/media/724Events1.webp": "/static/media/724Events1.7f5ceaeeb5c1304d9e00.webp",
     "static/media/kasaAbout.webp": "/static/media/kasaAbout.e5e425105655d1822e8f.webp",
     "static/media/CwSReact.webp": "/static/media/CwSReact.20ad2571a0dce944b1f5.webp",
     "static/media/ohmyfood.webp": "/static/media/ohmyfood.5b672f71fddb19b8cbb2.webp",
     "static/media/vague1.png": "/static/media/vague1.0050668d70313f34d2b1.png",
+    "static/media/724Events2.webp": "/static/media/724Events2.20785d92a95b335026a2.webp",
     "static/media/ValerieBoutiqueNext6.webp": "/static/media/ValerieBoutiqueNext6.d25a1d5ba5e6f26d13e5.webp",
     "static/media/ValerieBoutiqueNext2.webp": "/static/media/ValerieBoutiqueNext2.4adb9167f88382cd01ac.webp",
     "static/media/ValerieBoutiqueNext4.webp": "/static/media/ValerieBoutiqueNext4.d96f36c27cc21bda1a21.webp",
     "static/media/cwsV1Contact.webp": "/static/media/cwsV1Contact.b28c067ca4b03878eb3e.webp",
     "static/media/ridingCitiesPlanning.webp": "/static/media/ridingCitiesPlanning.7b32dcaf8485f8f89e29.webp",
+    "static/media/Argentbank6.webp": "/static/media/Argentbank6.ae80593c249cd3c43ce8.webp",
+    "static/media/Argentbank5.webp": "/static/media/Argentbank5.5b30dde748108821b5ad.webp",
     "static/media/ValerieBoutiqueNext12.webp": "/static/media/ValerieBoutiqueNext12.ce712daf6b678e20a1b4.webp",
+    "static/media/Argentbank4.webp": "/static/media/Argentbank4.00394d3f228a18f754bf.webp",
     "static/media/waveTop.png": "/static/media/waveTop.2bc546d15109636c9f71.png",
+    "static/media/Argentbank3.webp": "/static/media/Argentbank3.6bf3066360bd8fbd2225.webp",
+    "static/media/Argentbank2.webp": "/static/media/Argentbank2.ba5472a74b922fed4a02.webp",
     "static/media/waveBottom.png": "/static/media/waveBottom.62731ffb33277511f083.png",
     "static/media/vague4.png": "/static/media/vague4.94adbc46031dedde29bd.png",
     "static/media/ValerieBoutiqueNext10.webp": "/static/media/ValerieBoutiqueNext10.bf6f21ac10d5ccf6e681.webp",
@@ -59,11 +67,11 @@
     "static/media/mongodb.svg": "/static/media/mongodb.cfd0e73682ca87a93d0b11ee9dd28272.svg",
     "static/media/RightArrow.svg": "/static/media/RightArrow.88153a5d119c2744ffe34dca1ef843df.svg",
     "static/media/LeftArrow.svg": "/static/media/LeftArrow.479ce4e609bd4178370200f39273711f.svg",
-    "main.0e4dc85f.css.map": "/static/css/main.0e4dc85f.css.map",
-    "main.0945fb88.js.map": "/static/js/main.0945fb88.js.map"
+    "main.eb1181ba.css.map": "/static/css/main.eb1181ba.css.map",
+    "main.763bd7ff.js.map": "/static/js/main.763bd7ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.0e4dc85f.css",
-    "static/js/main.0945fb88.js"
+    "static/css/main.eb1181ba.css",
+    "static/js/main.763bd7ff.js"
   ]
 }
