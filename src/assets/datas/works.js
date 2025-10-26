@@ -158,7 +158,7 @@ export const works = [
         "category": "Formation",
         "description": "Création de l'interface d'un site de réservation de restaurant<br/><br/><u><b>Travail réalisé :</b></u> Suivi des designs imposés, utilisation d'animations, création en HTML et SASS, création manuelle de page pour les restaurants",
         "fullDescription": "OhMyFood est un projet conséquent permettant l’initiation au Sass, un préprocesseur CSS permettant une meilleure organisation des fichiers de style.<br/><br/>De l'intégration du responsive design (design pour tablette et mobile) à l'utilisation d'animations pour rendre plus intéractif la navigation, ce projet est avant tout un exercice de consolidation des compétences en HTML et dans les différentes techniques CSS en passant par le Sass.<br/><br/>Un site codé avec le préprocesseur Sass permet une meilleur maintenance sur le long terme ainsi qu’une meilleure compréhension à la relecture du code facilitant grandement la réutilisation de composants et surtout l’ajout de fonctionnalités. Couplé à l’utilisation de variables, ce langage permet la réduction des lignes de codes et par conséquent d’avoir un projet épuré et plus léger.<br/><br/>",
-        "homePage": true,
+        "homePage": false,
         "isOnline": true
     },
     {
