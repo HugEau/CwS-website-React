@@ -29,26 +29,18 @@ function Home() {
                 <div className="presentation__content--aboutContents">
                     <div className="presentation__content--aboutContentsPicture">
                         <img src={HugoChesnel} alt="Hugo Chesnel" />
-                        <p><b>Hugo Chesnel, 19 ans</b></p>
+                        <p><b>Hugo Chesnel</b></p>
                     </div>
                     <p>
-                        <span>À l'âge de <b>19 ans</b></span>, j'ai décidé de lancer <i>mon entreprise</i> de services de développement web. 
-                    
-                        <br/>
-                        <br/>
-                    
-                        Ayant toujours été intéressé par la technologie, j'ai décidé de m'orienter vers le <abbr title="Développement visuel d'un site"><b>développement Front-End</b></abbr> afin de lier loisir et travail : <span>la <b>création de sites web</b></span>.
-                    
-                        <br/>
-                        <br/>
-                    
-                        Actuellement en formation chez <span><b><u><a href="https://openclassrooms.com/fr/paths/900-integrateur-web" alt="openclassrooms courses link">OpenClassRooms</a></u></b></span> (bac +2), j'offre mes services en terme de développement Front-End pour les entrepreneurs et les particuliers.
-                    
-                        <br/>
-                        <br/>
-                
-                        Polyvalent, je suis ouvert à tout type de projet (<span><b>vitrine</b></span> pour votre commerce ou <span><b>portfolio</b></span> pour exposer vos créations...) <u><a href="mailto:chesnelwebstudio@gmail.com" alt="mailing Hugo Chesnel">contactez-moi</a></u> !
+                        Je conçois et développe des <b>sites web sur mesure</b> pour les <b>entreprises</b> et les <b>associations</b>, en alliant <b>rapidité</b> et <b>qualité</b>.  
+                        <br/><br/>
+                        Mon objectif est de créer des sites clairs, modernes et performants, qu’il s’agisse de <span><b>sites vitrine</b></span> pour présenter vos services, de <span><b>portfolios</b></span> pour mettre en avant vos réalisations, ou de solutions adaptées à vos besoins spécifiques.  
+                        <br/><br/>
+                        Chaque projet est traité avec soin pour offrir une expérience agréable à vos visiteurs et un outil simple à gérer pour vous.  
+                        <br/><br/>
+                        <u><a href="mailto:chesnelwebstudio@gmail.com" alt="mailing Hugo Chesnel">Contactez-moi</a></u> pour donner vie à votre projet en ligne.
                     </p>
+
                 </div>
             </div>
             
